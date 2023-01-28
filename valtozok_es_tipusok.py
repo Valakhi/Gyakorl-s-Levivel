@@ -82,7 +82,6 @@ random_operator = lista[random_szam]
 szam = int(input("Adjon meg egy számot!: "))
 szam2 = int(input("Adjon meg egy másik számot!: "))
 
-
 if random_operator == "*":
   print(f"{szam} {random_operator} {szam2} = {szam*szam2}")
 elif random_operator == "+":
